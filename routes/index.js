@@ -2,7 +2,7 @@ const express = require("express");
 
 const router = express.Router();
 
-const aboutRoute = require("./aboutme");
+const aboutRoute = require("./AboutMe");
 const technicalSkills = require("./tskills");
 const projects = require("./projects");
 const whyHireMe = require("./whyHM");
